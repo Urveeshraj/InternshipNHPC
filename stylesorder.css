@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: rgba(2, 52, 63, 0.9);
+}
+
+/* Container for content */
+.container {
+    width: 80%;
+    max-width: 1000px; /* Set a maximum width to ensure it doesn’t stretch too much */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(2, 52, 63, 0.9);
+    
+    
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: rgba(2, 52, 63, 0.9);
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table, th, td {
+    border: 1px solid rgba(2, 52, 63, 0.9);
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(2, 52, 63, 0.9);
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button styling */
+button {
+    background-color: #c8c27a;
+    border: none;
+    color: rgba(2, 52, 63, 0.9);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgba(2, 52, 63, 0.9);
+    color: #c8c27a;
+}
+
+/* Form styling */
+form {
+    text-align: center;
+}
